@@ -298,10 +298,10 @@ return {
   init = Interpret,
   hookprint = function()
     local event = Instance.new('BindableEvent')
-    print = function()
+    Environment["print"] = function()
       event:Fire()
     end
     return event.Event
-  end
+  end,
   instructions = Addresses
 }
