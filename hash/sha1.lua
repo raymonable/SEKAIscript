@@ -362,3 +362,5 @@ function sha1(msg)
 
 	return asHEX(H0) .. asHEX(H1) .. asHEX(H2) .. asHEX(H3) .. asHEX(H4)
 end
+
+local SHA1 = sha1
