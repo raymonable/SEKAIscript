@@ -3,12 +3,12 @@ local HttpService = game:GetService('HttpService')
 local Imports = {
     "hash/sha1.lua",
     "lib/builtins.lua",
-    "squid.lua"
+    "sekai.lua"
 }
 local ImportBase = ""
 for _, Import in pairs(Imports) do
     print('Downloading '..Import)
-    local ImportSrc = HttpService:GetAsync(string.format('https://cdn.jsdelivr.net/gh/raymonable/squid@latest/%s', Import))
+    local ImportSrc = HttpService:GetAsync(string.format('https://cdn.jsdelivr.net/gh/raymonable/SEKAIscript@latest/%s', Import))
     if ImportSrc then
         ImportBase = ImportBase .. "\
 ".. ImportSrc
