@@ -97,10 +97,12 @@ Z123456A 00000072 00000105
 It's a bit confusing, but I'll explain it so you understand how to use it better.
 
 `ZxxxxxxA` is an **append** function, like mentioned in *Variables*, for strings and strings ONLY.<br>
-Every character is defined by it's character code.<br>
-The character `i` is character code 105, so the number would look like `00000105`.
+Every character is defined by it's character code.
 
 And that's pretty much it (about strings)! Have fun, I guess.
+
+*Oh,* **OH!** One last thing...<br>
+In [the debug folder](/debug), there's a `string.lua` file. Use that to help with converting the strings into character codes.
 
 ### Anything else?
  
