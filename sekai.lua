@@ -129,10 +129,10 @@ function RetrieveInstruction(_Address)
     						else
     							Variables[VariableName] = ""
     						end
-    						if tonumber(CharacterNumber) ~= CharacterNumber then
+    						--[[if tonumber(CharacterNumber) ~= CharacterNumber then
     							print('Can\'t edit a string variable with '..type(CharacterNumber)..'! Please use a number.')
     							break
-    						end
+    						end]]
     						Variables[VariableName] = Variables[VariableName] .. string.char(CharacterNumber)
     					end
 					end
