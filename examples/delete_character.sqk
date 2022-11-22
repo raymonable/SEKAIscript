@@ -1,0 +1,14 @@
+# Yes, this is a thing.
+# Yes, this is stupid.
+# No, I do not regret it.
+# And finally, yes, this JUST deletes your character. Are you proud of me, daddy?
+
+# Create variables 000000 and 000001, setting them to "Character" and "Destroy"
+Z000000A 00000067 00000104 00000097 00000114 00000097 00000099 00000116 00000101 00000114
+Z000001A 00000068 00000101 00000115 00000116 00000114 00000111 00000121
+# Set variable 000002 to owner["Character"]
+Z0000021 F8D09C40 579233B2 Z0000000
+# Set variable 000003 to owner.Character["Destroy"]
+Z0000031 F8D09C40 Z0000020 Z0000010
+# Call variable 000003 (get variable 000002) with args Z0000020 (get variable 000002)
+BC8D8647 Z0000030 Z0000020
