@@ -15,13 +15,13 @@ for _, Import in pairs(Imports) do
     end
 end
 print('Importing... This may take a moment')
-local Squid
+local SekaiScript
 local Success, Error = pcall(function()
-    Squid = loadstring(ImportBase)()
+    SekaiScript = loadstring(ImportBase)()
 end)
 
 if Success then
-    Squid.init([[
+    SekaiScript.init([[
 # Your code goes here!!!]])
 else
     print(Error)
