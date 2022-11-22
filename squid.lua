@@ -257,8 +257,8 @@ for __, ___ in pairs({
 	['setindex'] = function(ToSet, Index, Value)
 	    ToSet[Index] = Value
 	end,
-	['call'] = function(ToCall)
-	    return ToCall()
+	['call'] = function(ToCall, ...)
+	    return ToCall(...)
 	end,
 	['createtable'] = function(...)
 	    local InitialTable = {}
@@ -302,7 +302,7 @@ return {
   hookprint = function()
     local event = Instance.new('BindableEvent')
     Environment["print"] = function()
-      event:Fire()
+      	event:Fire()
     end
     return event.Event
   end,
