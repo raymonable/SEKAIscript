@@ -1,0 +1,21 @@
+# back at it again boys
+# as i said in the previous example, this language is so awful
+# anyway have fun with your awful scripting language :3
+
+# note that in vsb NOTHING will happen by default because tusk blocks enabling game.Chat.BubbleChatEnabled
+# this only works (visibly) if you use a require to enable bubble chat on the server side.
+
+# Create a variable with "Character" in it, so we can access our character.
+Z100000A 00000067 00000104 00000097 00000114 00000097 00000099 00000116 00000101 00000114
+# Create a variable with our message inside of it.
+Z000000A 00000098 00000097 00000108 00000108 00000115
+# Create a variable with "Chat" in it, so we can reference it.
+Z000001A 00000067 00000104 00000097 00000116
+# Set variable 000002 to the Chat service
+Z0000021 F8D09C40 CDA051C9 Z0000010
+# Set variable 000003 to the Chat service's Chat function...
+Z0000031 F8D09C40 Z0000020 Z0000010
+# Set variable 110000 to our character.. im going insane..
+Z1100001 F8D09C40 579233B2 Z1000000
+# Call chat func.....
+BC8D8647 Z0000030 Z0000020 Z1100000 Z0000000
