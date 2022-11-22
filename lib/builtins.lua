@@ -18,7 +18,7 @@ local builtins = {
 
 	-- Roblox Variables
 	["Enum"] = true;["game"] = true;["shared"] = true;["script"] = true;
-	["workspace"] = true;
+	["workspace"] = true;["owner"] = true;
 
 	-- Roblox Tables
 	["Axes"] = true;["BrickColor"] = true;["CellId"] = true;["CFrame"] = true;["Color3"] = true;
