@@ -257,6 +257,9 @@ for __, ___ in pairs({
 	['setindex'] = function(ToSet, Index, Value)
 	    ToSet[Index] = Value
 	end,
+	['call'] = function(ToCall)
+	    return ToCall()
+	end,
 	['createtable'] = function(...)
 	    local InitialTable = {}
 	    for _, Argument in pairs({...}) do
