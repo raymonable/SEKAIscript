@@ -43,7 +43,8 @@ Here's even more things you should know about!
 ### Examples
 
 It is ***highly*** recommended you check out [the examples supplied](/examples).<br>
-It will make understanding this hellish scripting language so much easier.
+~~It will make understanding this hellish scripting language so much easier.~~<br>
+It really won't make it any easier to understand but rather convince you to not do it
 
 ### Variables
 
@@ -85,7 +86,8 @@ So, here's the full list of variable-only instructions.
 ### Strings
 
 Strings are unique in SEKAIscript.<br>
-They work by appending characters.
+They work by appending singular characters, by their character codes.<br>
+**If you have a more efficient way to do this, please send in an Issue so we can talk this out. Thank you!**
 
 And no, it is *not* efficient, or a good use of space.
 
