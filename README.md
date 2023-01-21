@@ -50,7 +50,7 @@ It will make understanding this hellish scripting language so much easier.
 Variables are pretty simple, and have a very little learning curve.<br>
 Here we go!
 
-Variables are always defined like this: `Zxxxxxx?` (`x`'s are what the user would put in, `?` is where you'd place the instruction).<br>
+Variables are always defined like this: `Zxxxxxx?` (`x`'s can be anything (this is the name for the variable), `?` is where you'd place the instruction).<br>
 So, here's the full list of variable-only instructions.
 
 #### GENERAL PURPOSE
