@@ -4,6 +4,11 @@
 
 The sh\*tty scripting language you didn't ask for, but you got anyways.
 
+## Note from Author
+
+guys im so sorry i did not know what the fuck a hexadecimal was until like a month ago</br>
+give me a break :sob: i can make a better version of this in the future
+
 ## (Intentional) Limitations
  - Instructions must be split by whitespaces, and new lines.
  - Instructions can only contain A-F, Y-Z, 0-9 (not enforced just yet because idk how to use regex lol)
